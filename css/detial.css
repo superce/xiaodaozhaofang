@@ -1,0 +1,338 @@
+
+
+.x-title {
+  font-size: 20px;
+  line-height: 78px
+}
+
+.x-line {
+  width: 100%;
+  height: 1px;
+  background-color: #eee;
+  margin-top: 35px;
+  margin-bottom: 10px
+}
+
+.ret {
+  line-height: 24px
+}
+
+.x-box li {
+  display: inline-block;
+  width: 48%;
+  margin-bottom: 10px
+}
+
+.x-box .all-row {
+  display: block;
+  width: 100%
+}
+
+.x-box .label {
+  display: inline-block;
+  width: 100px;
+  font-weight: 700;
+  color: #333;
+  vertical-align: top
+}
+
+.x-box .date-label {
+  width: 200px !important
+}
+
+.x-box .around-val {
+  display: inline-block;
+  width: 621px;
+  vertical-align: -42px
+}
+
+.x-box .around-val div {
+  font-weight: 700;
+  color: #666
+}
+
+.x-box .around-val div span {
+  font-weight: 400;
+  color: #888
+}
+
+.x-box .tese-val {
+  width: 230px;
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  vertical-align: -5px
+}
+
+.x-box .label-val {
+  color: #888
+}
+
+.x-box .label-val a {
+  color: #888;
+  margin-right: 6px;
+  text-decoration: underline
+}
+
+.x-box .label-val a:hover {
+  color: #55c999
+}
+
+.news-hot {
+  margin: 20px 0
+}
+
+.news-hot h5 {
+  padding: 30px 0 20px;
+  margin-bottom: 16px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: 1px solid #e4e4e4
+}
+
+.news-hot li {
+  height: 27px;
+  line-height: 27px;
+  font-size: 0;
+  font-weight: 700
+}
+
+.news-hot li a {
+  display: inline-block;
+  width: 50%;
+  height: 27px;
+  color: #333;
+  font-size: 12px;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  vertical-align: middle
+}
+
+.news-hot li a:hover {
+  color: #00ae66
+}
+
+.news-hot li span {
+  display: inline-block;
+  width: 50%;
+  height: 27px;
+  color: #f15044;
+  font-size: 12px;
+  text-align: right;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  vertical-align: middle
+}
+
+.photowrap .lit-address {
+  width: 200px;
+  height: 150px
+}
+
+.photowrap h5 {
+  text-align: left;
+  padding: 20px 0;
+  color: #333;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative
+}
+
+.photowrap .h5-note {
+  font-size: 12px;
+  color: #999;
+  font-weight: 400;
+  position: absolute;
+  right: 0;
+  bottom: 23px
+}
+
+.photowrap a {
+  position: relative
+}
+
+.photowrap img {
+  display: block;
+  width: 100%
+}
+
+.photowrap .photo-mask {
+  background: #000;
+  opacity: .3;
+  filter: alpha(opacity=30)
+}
+
+.photowrap .photo-mask,
+.photowrap .photo-text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%
+}
+
+.photowrap .photo-text {
+  line-height: 80px;
+  color: #fff;
+  font-size: 12px;
+  text-align: center
+}
+
+.photowrap .left-pos {
+  float: left;
+  width: 90px;
+  height: 160px
+}
+
+.photowrap .left-pos .photo-text {
+  line-height: 160px
+}
+
+.photowrap .right-pos {
+  float: left;
+  width: 107px
+}
+
+.photowrap .right-pos .t {
+  line-height: 80px
+}
+
+.photowrap .right-pos .bottom-pos,
+.photowrap .right-pos .t {
+  display: block;
+  height: 80px
+}
+
+.fq-more {
+  display: none;
+  position: relative;
+  width: 730px;
+  font-size: 14px;
+  color: #999;
+  background-color: #f9f9f9;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 15px
+}
+
+.fenqi-ul {
+  margin-bottom: -10px
+}
+
+.fenqi-ul .fq-nbd {
+  border-top: none
+}
+
+.fenqi-ul .fq-thtr {
+  padding: 0 20px;
+  background: #f5f5f5;
+  color: #222;
+  font-weight: 700;
+  height: 30px;
+  line-height: 30px
+}
+
+.fenqi-ul li {
+  padding: 5px 20px;
+  color: #888;
+  line-height: 24px;
+  border-top: 1px solid #e5e5e5;
+  overflow: hidden
+}
+
+.fenqi-ul li span {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top
+}
+
+.fenqi-ul li .fq-td {
+  line-height: 24px;
+  float: left
+}
+
+.fenqi-ul li .fq-td span {
+  display: block;
+  margin: 8px 0
+}
+
+.fenqi-ul li .fq-open {
+  width: 25%
+}
+
+.fenqi-ul li .fq-build {
+  width: 18%
+}
+
+.fenqi-ul .fq-row {
+  padding: 8px 0 2px;
+  line-height: 24px
+}
+
+.fenqi-ul .fq-fqbuild,
+.fenqi-ul .fq-fqname {
+  display: inline-block;
+  vertical-align: top
+}
+
+.fenqi-ul .fq-fqbuild span {
+  display: block
+}
+
+.fenqi-ul .fq-handover {
+  width: 53%
+}
+
+.xinfang-nav .bar-search-box ul li a .type {
+  margin-left: 0
+}
+
+.x-table {
+  word-break: break-all;
+  width: 100%;
+  border-top: 1px solid #eee;
+  border-left: 1px solid #eee;
+  color: #888;
+  text-align: left
+}
+
+.x-table .w86 {
+  width: 86px
+}
+
+.x-table .w256 {
+  width: 256px
+}
+
+.x-table th {
+  background: #fafafa;
+  color: #333;
+  height: 38px;
+  padding: 0 12px
+}
+
+.x-table td,
+.x-table th {
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee
+}
+
+.x-table td {
+  line-height: 22px;
+  padding: 12px
+}
+
+
+
+
+
+
+

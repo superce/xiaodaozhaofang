@@ -1,0 +1,62 @@
+
+.zhuanti_box {
+	width:700px;
+	height:auto;
+	margin:20px 0;
+	padding:7px;
+	border:1px solid #eae9ef;
+}
+#slideBox {
+	width:700px;
+	overflow:hidden;
+}
+#slideBox .J_slide_list {
+	width:3600px;
+}
+#slideBox .J_slide_list .J_slide_item {
+	width:700px;
+	height:330px;
+	float:left;
+}
+#slideBox .J_slide_list .J_slide_item img {
+	vertical-align:top;
+}
+#slideBox .J_slide_trigger {
+	width:700px;
+	/* overflow: hidden; */
+	overflow-x: scroll;
+	margin-top: 10px;
+}
+#slideBox .J_slide_trigger li, .J_slide_trigger a {
+	width:96px;
+}
+#slideBox .J_slide_trigger li {
+	float:left;
+	text-align:center;
+	border: 1px solid #ccc;
+	overflow:hidden;
+	box-sizing: border-box;
+	margin: 0 2px;
+}
+#slideBox .J_slide_trigger li a {
+	display:block;
+	height:60px;
+	color:#fff;
+	font-family:"Microsoft Yahei", "微软雅黑";
+}
+#slideBox .J_slide_trigger li.cur a, .J_slide_trigger li a:hover {
+	color:#FFF;
+	background:#21b6bb;
+	text-decoration:none;
+}
+.J_slide_advance {
+	width:600px;
+	float:left;
+	height:148px;
+	margin-top:1px;
+}
+.J_slide_advance p {
+	width:199px;
+	margin-right:1px;
+	float:left;
+}
